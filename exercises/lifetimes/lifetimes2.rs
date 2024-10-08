@@ -6,7 +6,6 @@
 // Execute `rustlings hint lifetimes2` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
     if x.len() > y.len() {
@@ -24,5 +23,4 @@ fn main() {
         result = longest(string1.as_str(), string2.as_str());
         println!("The longest string is '{}'", result);
     }
-    
 }
